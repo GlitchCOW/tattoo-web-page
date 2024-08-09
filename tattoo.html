@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="tattoo.css">
+    <title>tattoo and piercing</title>
+  >
+</head>
+<body>
+    <nav class="bg-gray-600 p-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center space-x-2">
+                <div class="text-gray-50 text-xl">Steel &</div>
+                <div class="text-yellow-500 text-xl">Ink</div>
+            </div>
+    
+            <!-- Navigation Menu -->
+            <div class="flex-1 flex justify-center">
+                <ul class="flex space-x-6">
+                    <li><a href="#Home" class=" text-gray-50 hover:text-yellow-500 ">Home</a></li>
+                    <li><a href="#About us" class="text-gray-50 hover:text-yellow-500">About us</a></li>
+                    <li><a href="#Artists" class="text-gray-50 hover:text-yellow-500">Artists</a></li>
+                    <li><a href="#Services" class="text-gray-50 hover:text-yellow-500">Services</a></li>
+                    <li><a href="#Contact" class="text-gray-50 hover:text-yellow-500">Contact</a></li>
+                </ul>
+            </div>  
+           
+    
+            <!-- Book Now Button -->
+            <div>
+                <button class="bg-gray-50 text-black py-2 px-3 rounded hover:bg-red-600">Book Now</button>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- hero section -->
+
+    <section>
+       <div class="parallax flex justify-center items-center ">
+            <div class=" w-full flex justify-center items-center h-32 space-x-8 font-black ">
+                <h1 class="text-gray-100 text-5xl ">Where Art Meets Flesh</h1>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- about section -->
+
+    <section class="bg-gray-600">
+            <h2 class="flex justify-center items-center font-mono text-3xl text-yellow-600 underline underline-offset-8">About Us</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 ">
+            <div class="flex items-center justify-center p-4">
+                <img src="./images/heavy piercing.jpg" class="col-span-1 h-full max-h-full">
+            </div>
+
+            <div class="flex items-center justify-center p-4">
+                <p class="text-center text-lg md:text-xl leading-relaxed ">
+                    This is some text content. You can describe something here or provide additional information.
+                </p>
+            </div>
+
+            <div class="flex items-center justify-center p-4">
+                <img src="./images/tattooing.jpg" class="col-span-1">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- img section -->
+
+    <section>
+        <div class="parallax flex justify-center items-center " id="tattoo"></div>
+    </section>
+
+    
+
+    <!-- artists section -->
+
+    <section class="bg-gray-600 ">
+        <div class=" flex justify-center items-center " >
+            <h2 class=" font-mono text-3xl text-yellow-600 mt-6 underline underline-offset-8">
+                Meet Our Artists
+            </h2>
+         </div>
+         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 bg-gray-600">
+            <!-- Left Column (Piercing Artist Info) -->
+            <div class=" pt-4 text-white flex flex-col items-center justify-center p-4">
+                <img src="./images/piercing artist.jpg" class="h-80 object-cover rounded-full shadow-lg" alt="Piercing Artist">
+                <h2 class="mt-4 text-2xl font-bold">Akimo Piercing Artist</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        
+            <!-- Right Column (Grid of Images) -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <img src="./images/piercing 1.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" >
+                <img src="./images/piercing 2.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" >
+                <img src="./images/piercing 3.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" >
+                
+            </div>
+        </div>
+
+
+        <div class=" flex justify-center items-center pt-8" >
+            
+         </div>
+         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 bg-gray-600">
+            <!-- Left Column (tattoo Artist Info) -->
+            <div class=" text-white flex flex-col items-center justify-center p-4">
+                <img src="./images/artist 2 jessica.jpg" class="h-80 object-cover rounded-full shadow-lg" alt="Tattoo Artist">
+                <h2 class="mt-4 text-2xl font-bold">jessica Tattoo Artist</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        
+            <!-- Right Column (Grid of Images) -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+                <img src="./images/tattoo 1.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" >
+                <img src="./images/tattoo2.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" >
+                <img src="./images/tattoo3.jpg" class="w-full h-full object-cover rounded-lg shadow-lg" >
+                
+            </div>
+        </div>
+           
+            
+       
+
+    </section>
+
+
+      <!-- service section -->
+
+      <section class="">
+        <h2 class="text-center text-3xl font-bold font-mono text-yellow-600 underline underline-offset-8 ">Our Services</h2>
+            <div class="grid grid-cols-3 gap-3">
+            
+            
+                <!-- Left Column: Centered Content with List -->
+                <div class="flex flex-col items-center justify-center">
+                    <h3 class="text-center mb-4 underline underline-offset-8">Piercings</h3>
+                    <ul class="list-none list-inside">
+                        <li>Earlobe Piercing $20-$30</li>
+                        <li>Nose Piercing $20-$30</li>
+                        <li>Cartilage Piercing $50-$70</li>
+                        <li>Surface Piercing $50-$70</li>
+                        <li>Tounge Piercing $20</li>
+                        <li>Lip Piercing $30-$40</li>
+                        <li>Gentail Piercing $120- $150</li>
+                    </ul>
+                </div>
+
+                
+             <!-- Middle Column: button -->
+             <div class="flex items-center justify-center">
+                <button class="bg-gray-400 shadow-lg text-black rounded hover:bg-red-500  py-2 px-4">Book Now</button>
+            </div>
+
+                <!-- Right Column: Centered Content -->
+                <div class="flex flex-col items-center justify-center">
+                    <h3 class="text-center mb-4 underline underline-offset-8">Tattoo</h3>
+                    <ul class="list-disc list-inside">
+                        <li>$100 per hour Flash work</li>
+                        <li>$150 per hour</li>
+                    
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+        
+
+            <!-- Contact Form Section -->
+    <section id="contact" class="bg-gray-800 text-gray-100 py-12 px-6">
+        <h2 class="text-center text-3xl font-bold mb-8 text-yellow-600">Contact Us</h2>
+        <div class="max-w-4xl mx-auto">
+            <form class="bg-gray-700 p-6 rounded-lg">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="w-full p-3 rounded bg-gray-600 text-gray-100" placeholder="Your Name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="w-full p-3 rounded bg-gray-600 text-gray-100" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <label for="message" class="block mb-2">Message</label>
+                    <textarea id="message" name="message" class="w-full p-3 rounded bg-gray-600 text-gray-100" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="mt-6 text-center">
+                    <button type="submit" class="bg-red-100 text-black rounded hover:bg-red-500 py-2 px-6">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-400 py-8 mt-12">
+        <div class="container mx-auto text-center">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-6">
+                <!-- Footer Logo -->
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold text-yellow-600">Steel & Ink</h3> 
+                </div>
+                <!-- Social Media Links -->
+                <div class="flex space-x-4 mb-6 md:mb-0">
+                    <a href="#" class="hover:text-yellow-500">Facebook</a>
+                    <a href="#" class="hover:text-yellow-500">Instagram</a>
+                    <a href="#" class="hover:text-yellow-500">Twitter</a>
+                </div>
+                <!-- Contact Info -->
+                <div class="text-sm">
+                    <p>123 Ink Street, Tattoo City, TX 75001</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@steelandink.com</p>
+                </div>
+            </div>
+            <div class="text-xs">
+                <p>&copy; 2024 Steel & Ink. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+
+    <script src="tattoo.js"></script>
+</body>
+</html>
